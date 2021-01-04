@@ -7,15 +7,17 @@ Dark green: #7ed56f
 
 */
 html {
-    font-size: 10px;
-
+    /* Do make the website user-friendly to user with visual disabilities */
+    font-size: 65%;
 }
+
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     line-height: 1.7;
     color: #777;
-    padding: 1.5.rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
 }
 
 .header {
